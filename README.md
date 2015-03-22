@@ -2,6 +2,8 @@
 =======
 A Ultra small [jQuery] implementation. Its so small that it doesn't even have tests nor examples!
 
+>¿No entiendes Inglés? [Lee la documentación en español](README-spanish.md)!  
+
 Features
 -------
 * So far it weights `~0.85k`.
@@ -33,7 +35,7 @@ $(document).ready(function ($) { // on DOM Ready
 While being quite small, it supports extending it, like regular [jQuery] does!
 
 ```js
-$.fn.myMethod = function (args) { // on DOM Ready
+$.fn.myMethod = function (args) {
     // do whatevah with your args, if you want to chain, then return this;
 };
 ```
